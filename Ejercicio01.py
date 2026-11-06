@@ -1,3 +1,9 @@
+"""
+Crea un diccionario pokemon que contenga como claves: nombre, tipo y niviel con
+valores Pikachu, Eléctrico y 25. Luego comprueba si Charmander se encuentra entre sus valores.
+Comprueba si hay uncampo llamado tipo y si es así muestra su valor.
+"""
+
 pokemon = {"Nombre": "Pikachu", "Tipo":"Eléctrico", "Nivel": "25"}
 
 if "Charmander" in pokemon.values():
